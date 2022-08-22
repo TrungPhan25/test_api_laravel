@@ -13,9 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.main',[
-        'title'=>'Trang chủ'
-    ]);
-    //hello
+Route::get('/', function ()
+{ return view('pages.main',['title'=>'Trang chủ']);
 });
+
+Route::get('/detail',function (){
+   return view('pages.detail',['title'=>'bai viet']);
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
