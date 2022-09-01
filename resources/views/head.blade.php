@@ -30,33 +30,34 @@
 <title>Magz &mdash; Responsive HTML5 &amp; CSS3 Magazine Template</title>
 <!-- Bootstrap -->
 
-<link rel="stylesheet"  href={{URL::asset('template/scripts/bootstrap/bootstrap.min.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/scripts/bootstrap/bootstrap.min.css')}}>
 
 <!-- IonIcons -->
 
-<link rel="stylesheet"  href={{URL::asset('template/scripts/ionicons/css/ionicons.min.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/scripts/ionicons/css/ionicons.min.css')}}>
 
 <!-- Toast -->
 
-<link rel="stylesheet"  href={{URL::asset('template/scripts/toast/jquery.toast.min.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/scripts/toast/jquery.toast.min.css')}}>
 
 <!-- OwlCarousel -->
 
-<link rel="stylesheet"  href={{URL::asset('template/scripts/owlcarousel/dist/assets/owl.carousel.min.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/scripts/owlcarousel/dist/assets/owl.carousel.min.css')}}>
 
 
-<link rel="stylesheet"  href={{URL::asset('template/scripts/owlcarousel/dist/assets/owl.theme.default.min.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/scripts/owlcarousel/dist/assets/owl.theme.default.min.css')}}>
 
 <!-- Magnific Popup -->
-<link rel="stylesheet"  href={{URL::asset('template/scripts/magnific-popup/dist/magnific-popup.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/scripts/magnific-popup/dist/magnific-popup.css')}}>
 
-<link rel="stylesheet"  href={{URL::asset('template/scripts/sweetalert/dist/sweetalert.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/scripts/sweetalert/dist/sweetalert.css')}}>
 
 <!-- Custom style -->
-<link rel="stylesheet"  href={{URL::asset('template/css/style.css')}}>
-<link rel="stylesheet"  href={{URL::asset('template/css/skins/all.css')}}>
-<link rel="stylesheet"  href={{URL::asset('template/css/demo.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/css/style.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/css/skins/all.css')}}>
+<link rel="stylesheet"  href={{URL::asset('public/template/css/demo.css')}}>
 
 {{--        <link rel="stylesheet" href="css/style.css">--}}
 {{--        <link rel="stylesheet" href="css/skins/all.css">--}}
 {{--        <link rel="stylesheet" href="css/demo.css">--}}
+

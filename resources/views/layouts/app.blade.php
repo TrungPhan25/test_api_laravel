@@ -10,8 +10,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-{{--    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>--}}
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+{{--    <script src="{{ asset('js/app.js') }}" defer></script>--}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -21,6 +21,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 {{--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
 {{--    <link href="resources/css/app.css" rel="stylesheet">--}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
 
 </head>
 <body>
@@ -85,4 +97,26 @@
         </main>
     </div>
 </body>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src= {{URL::asset('public/template/lib/chart/chart.min.js')}}></script>
+<script src= {{URL::asset('public/template/lib/easing/easing.min.js')}}></script>
+<script src= {{URL::asset('public/template/lib/waypoints/waypoints.min.js')}}></script>
+<script src= {{URL::asset('public/template/lib/owlcarousel/owl.carousel.min.js')}}></script>
+<script src= {{URL::asset('public/template/lib/tempusdominus/js/moment.min.js')}}></script>
+<script src= {{URL::asset('public/template/lib/tempusdominus/js/moment-timezone.min.js')}}></script>
+<script src= {{URL::asset('public/template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}></script>
+
+
+{{--<script src="template/lib/chart/chart.min.js"></script>--}}
+{{--<script src="template/lib/easing/easing.min.js"></script>--}}
+{{--<script src="template/lib/waypoints/waypoints.min.js"></script>--}}
+{{--<script src="template/lib/owlcarousel/owl.carousel.min.js"></script>--}}
+{{--<script src="template/lib/tempusdominus/js/moment.min.js"></script>--}}
+{{--<script src="template/lib/tempusdominus/js/moment-timezone.min.js"></script>--}}
+{{--<script src="template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>--}}
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
 </html>

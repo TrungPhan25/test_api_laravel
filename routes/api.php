@@ -26,6 +26,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::prefix('v1')->group(function (){
     Route::resource('customer',\App\Http\Controllers\Api\v1\CustomerController::class)
         ->only('index','show','update','delete','store');
+    Route::resource('category',\App\Http\Controllers\Api\v1\CategoryPostController::class);
 });
 
 Route::prefix('v2')->group(function (){
