@@ -51,9 +51,7 @@
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        @php()
 
-                                        @endphp
                                         @foreach($category as $categories)
                                         <tr>
                                             <td>{{$categories->id}}</td>

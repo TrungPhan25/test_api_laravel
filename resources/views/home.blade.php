@@ -15,7 +15,7 @@
                     @endif
                         <a href="{{route('category.create')}}" class="btn btn-primary w-100 mb-2"> Thêm danh mục bài viết</a>
                         <a href="{{route('category.index')}}" class="btn btn-primary w-100 mb-2"> Xem danh mục bài viết</a>
-                        <a class="btn btn-success w-100 mb-2"> Thêm bài viết</a>
+                        <a href="{{route('post.create')}}"  class="btn btn-success w-100 mb-2"> Thêm bài viết</a>
 
                 </div>
             </div>

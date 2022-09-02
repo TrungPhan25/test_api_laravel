@@ -33,6 +33,13 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
+{{--    tempalte--}}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <script src="{{ asset('public/template/plugins/fontawesome-free/css/all.min.css') }}" defer></script>
+    <!-- Theme style -->
+    <script src="{{ asset('public/template/dist/css/adminlte.min.css') }}" defer></script>
+
 
 </head>
 <body>
@@ -107,8 +114,16 @@
 <script src= {{URL::asset('public/template/lib/tempusdominus/js/moment.min.js')}}></script>
 <script src= {{URL::asset('public/template/lib/tempusdominus/js/moment-timezone.min.js')}}></script>
 <script src= {{URL::asset('public/template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}></script>
+{{--<script src="//cdn.ckeditor.com/4.19.1/standard/ckeditor.js"></script>--}}
+<script type="text/javascript" src= {{URL::asset('public/ckeditor/ckeditor.js')}} ></script>
+<script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function (){
+        CKEDITOR.replace('ckeditor_shortdesc');
+        CKEDITOR.replace('ckeditor_desc');
 
-
+    })
+</script>
 {{--<script src="template/lib/chart/chart.min.js"></script>--}}
 {{--<script src="template/lib/easing/easing.min.js"></script>--}}
 {{--<script src="template/lib/waypoints/waypoints.min.js"></script>--}}
@@ -118,5 +133,20 @@
 {{--<script src="template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>--}}
 
 <!-- Template Javascript -->
+
+<!-- jQuery -->
+<script src= {{URL::asset('public/template/plugins/jquery/jquery.min.js')}}></script>
+<!-- Bootstrap 4 -->
+<script src= {{URL::asset('public/template/plugins/bootstrap/js/bootstrap.bundle.min.js')}}></script>
+
+<!-- bs-custom-file-input -->
+<script src= {{URL::asset('public/template/plugins/bs-custom-file-input/bs-custom-file-input.min.js')}}></script>
+
+<!-- AdminLTE App -->
+<script src= {{URL::asset('public/template/dist/js/adminlte.min.js')}}></script>
+
+<!-- AdminLTE for demo purposes -->
+<script src= {{URL::asset('public/template/dist/js/demo.js')}}></script>
+
 <script src="js/main.js"></script>
 </html>

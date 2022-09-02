@@ -27,6 +27,8 @@ Route::prefix('v1')->group(function (){
     Route::resource('customer',\App\Http\Controllers\Api\v1\CustomerController::class)
         ->only('index','show','update','delete','store');
     Route::resource('category',\App\Http\Controllers\Api\v1\CategoryPostController::class);
+    Route::resource('post',\App\Http\Controllers\Api\v1\PostController::class);
+
 });
 
 Route::prefix('v2')->group(function (){
